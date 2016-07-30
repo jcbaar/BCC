@@ -1,0 +1,269 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{8cb427cd-4ed1-4dfb-bc42-4fd48ab55e94}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{bfe09a8c-c884-45de-8b17-f590f8ae478b}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{73380806-8c3e-4d91-ade2-bd60ec5a5936}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="Text Files">
+      <UniqueIdentifier>{26338215-161b-40b3-be60-301ca1c4e06a}</UniqueIdentifier>
+      <Extensions>*.txt</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="about.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="block.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="classname.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="colorlist.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Comments.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="datetime.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="files.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="general.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="hardcoded.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="indent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="insertedit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="keyboard.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="keyrec.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="keywords.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kwedit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Markers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="nosettings.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="optiontree.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="page.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="printer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="run.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="syntax.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="toolbar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="treeview.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bcc.def">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="about.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="clist.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="CLIST_gray.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="comments.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="datetime.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="email.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="files.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="general.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="indentio.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="keyboard.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="keywords.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="main.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="main.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Markers.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="printer.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="syntax.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="toolbar.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="toolbar_gray.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tree.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="www.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\C\Brainchild\HTMLHelp\Programmer\RevCfg.txt">
+      <Filter>Text Files</Filter>
+    </None>
+    <None Include="Todo.txt">
+      <Filter>Text Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="about.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="bcc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="block.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="brainchild.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="classname.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="colorlist.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Comments.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="datetime.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DEFS.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="files.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="general.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hardcoded.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="indent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="insertedit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="keyboard.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="keyrec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="keywords.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kwedit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="list.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Markers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="nosettings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="optiontree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="page.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="printer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="run.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="syntax.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="toolbar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="treeview.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="bcc.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
